@@ -1,7 +1,7 @@
-package com.tianyongwei.playground.JVM.classloader4;
+package com.tianyongwei.playground.jvm.classloader4;
 
-import com.tianyongwei.playground.JVM.classloader4.hello.Hello;
-import com.tianyongwei.playground.JVM.classloader4.hello.HelloFather;
+import com.tianyongwei.playground.jvm.classloader4.hello.Hello;
+import com.tianyongwei.playground.jvm.classloader4.hello.HelloFather;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -32,7 +32,7 @@ public class ClassLoaderMain4 {
 
 
     try {
-      Class<?> helloClass = classLoaderV1.loadClass("com.tianyongwei.playground.JVM.classloader4.hello.Hello");
+      Class<?> helloClass = classLoaderV1.loadClass("com.tianyongwei.playground.jvm.classloader4.hello.Hello");
 
       HelloFather fatherByClassBytes = (HelloFather) helloClass.newInstance();
       // 查看字节码加载的类的ClassLoader
