@@ -1,4 +1,4 @@
-package com.tianyongwei.playground.JVM.classloader2.hello;
+package com.tianyongwei.playground.jvm.classloader2.hello;
 
 public abstract class HelloFather {
 

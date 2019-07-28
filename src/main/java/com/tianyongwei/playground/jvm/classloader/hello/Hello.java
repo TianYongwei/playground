@@ -1,4 +1,4 @@
-package com.tianyongwei.playground.JVM.classloader.hello;
+package com.tianyongwei.playground.jvm.classloader.hello;
 
 public class Hello {
 

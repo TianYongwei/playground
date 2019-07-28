@@ -1,4 +1,4 @@
-package com.tianyongwei.playground.JVM.classloader3;
+package com.tianyongwei.playground.jvm.classloader3;
 
 import java.io.IOException;
 import java.nio.file.Files;
@@ -33,7 +33,7 @@ public class ClassLoaderMain3 {
 
 
     try {
-      Class<?> helloV1Class = classLoaderV1.loadClass("com.tianyongwei.playground.JVM.classloader3.hello.Hello");
+      Class<?> helloV1Class = classLoaderV1.loadClass("com.tianyongwei.playground.jvm.classloader3.hello.Hello");
     } catch (ClassNotFoundException e) {
       e.printStackTrace();
     }

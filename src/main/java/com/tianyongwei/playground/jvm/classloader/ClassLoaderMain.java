@@ -1,6 +1,6 @@
-package com.tianyongwei.playground.JVM.classloader;
+package com.tianyongwei.playground.jvm.classloader;
 
-import com.tianyongwei.playground.JVM.classloader3.hello.Hello;
+import com.tianyongwei.playground.jvm.classloader3.hello.Hello;
 
 import java.io.IOException;
 import java.lang.reflect.InvocationTargetException;
@@ -58,10 +58,10 @@ public class ClassLoaderMain {
     };
 
     try {
-      Class<?> helloV1Class = classLoaderV1.loadClass("com.tianyongwei.playground.JVM.classloader3.hello.Hello");
+      Class<?> helloV1Class = classLoaderV1.loadClass("com.tianyongwei.playground.jvm.classloader3.hello.Hello");
       Object helloV1 = helloV1Class.newInstance();
 
-      Class<?> helloV2Class = classLoaderV2.loadClass("com.tianyongwei.playground.JVM.classloader3.hello.Hello");
+      Class<?> helloV2Class = classLoaderV2.loadClass("com.tianyongwei.playground.jvm.classloader3.hello.Hello");
       Object helloV2 = helloV2Class.newInstance();
 
       Hello helloV3 = new Hello();

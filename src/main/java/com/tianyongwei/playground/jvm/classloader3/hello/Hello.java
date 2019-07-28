@@ -1,4 +1,4 @@
-package com.tianyongwei.playground.JVM.classloader3.hello;
+package com.tianyongwei.playground.jvm.classloader3.hello;
 
 public class Hello extends HelloFather {
 
