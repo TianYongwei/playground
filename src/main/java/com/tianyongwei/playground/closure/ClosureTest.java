@@ -1,11 +1,11 @@
 package com.tianyongwei.playground.closure;
 
-public class Test {
+public class ClosureTest {
 
   public static void main(String[] args) {
 
-    Test t1 = new Test();
-    Test t2 = t1;
+    ClosureTest t1 = new ClosureTest();
+    ClosureTest t2 = t1;
     System.out.println(t1.equals(t2));// true
     System.out.println(t1 == t2);// true
 

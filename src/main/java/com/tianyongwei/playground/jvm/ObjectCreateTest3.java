@@ -1,9 +1,9 @@
 package com.tianyongwei.playground.jvm;
 
-public class ObjectCreateTest5 {
+public class ObjectCreateTest3 {
 
   public static void main(String[] args) {
-    new S();
+    System.out.println(S.class);
   }
 
 }

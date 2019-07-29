@@ -1,4 +1,4 @@
-package com.tianyongwei.playground.OO;
+package com.tianyongwei.playground.oo;
 
 public class ClassLoaderMain {
 
