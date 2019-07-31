@@ -11,11 +11,12 @@ import java.util.List;
 import java.util.concurrent.*;
 import java.util.stream.IntStream;
 
-@BenchmarkMode(Mode.AverageTime)
+@BenchmarkMode({Mode.AverageTime, Mode.SingleShotTime, Mode.Throughput, Mode.SampleTime, Mode.All})
 @OutputTimeUnit(TimeUnit.MICROSECONDS)
 @State(Scope.Benchmark)
 public class BenchmarkTest {
-  @Param({"100000000"}) // 一亿个数字
+  // 绑定参数
+  @Param({"100000000"})
   private int length;
 
   private int[] numbers;
@@ -23,6 +24,15 @@ public class BenchmarkTest {
   private Calculator multiThreadCalc;
 
   public static void main(String[] args) throws RunnerException {
+    /**
+     * 构建JMH runner
+     * 1. 构建runner Options
+     *    1. 根据正则表达式include要进行测试的类
+     *    2. fork设置线程数
+     *    3. 设置预热迭代次数
+     *    4. 设置实际测试迭代次数
+     * 2. 构建runner
+     */
     Options opt = new OptionsBuilder()
             .include(BenchmarkTest.class.getSimpleName())
             .forks(1)
