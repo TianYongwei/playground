@@ -25,7 +25,7 @@ public class BenchmarkTest {
 
   public static void main(String[] args) throws RunnerException {
     /**
-     * 构建JMH runner
+     * 构建 JMH runner
      * 1. 构建runner Options
      *    1. 根据正则表达式include要进行测试的类
      *    2. fork设置线程数
