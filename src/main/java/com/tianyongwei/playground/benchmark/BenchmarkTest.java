@@ -1,4 +1,4 @@
-package com.tianyongwei.playground.test;
+package com.tianyongwei.playground.benchmark;
 
 import org.openjdk.jmh.annotations.*;
 import org.openjdk.jmh.runner.Runner;

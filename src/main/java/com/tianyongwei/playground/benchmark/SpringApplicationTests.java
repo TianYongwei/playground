@@ -1,4 +1,4 @@
-package com.tianyongwei.playground.test;
+package com.tianyongwei.playground.benchmark;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
