@@ -3,6 +3,7 @@ package com.tianyongwei.playground.collection.map;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.Hashtable;
+import java.util.Iterator;
 import java.util.concurrent.ConcurrentHashMap;
 
 public class MapTest {
@@ -18,12 +19,9 @@ public class MapTest {
 //    hashtable.put(null,""); // 报空指针
 
     HashMap hashMap = new HashMap();
-    hashMap.put("",null);// 正常
-    hashMap.put(null,"");// 正常
+    hashMap.put("", null);// 正常
+    hashMap.put(null, "");// 正常
 
-    ArrayList<String> a = new ArrayList();
-    a.add("1");
-    a.add(new String("000"));
-    System.out.println(a);
   }
 }
+
