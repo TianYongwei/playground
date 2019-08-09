@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.Iterator</OriginalElement>
+  <nodes>
+    <node x="3.5" y="742.0">java.util.HashMap.TreeNode</node>
+    <node x="130.5" y="276.0">java.util.HashMap.Node</node>
+    <node x="0.0" y="0.0">java.util.Map.Entry</node>
+    <node x="130.5" y="598.0">java.util.LinkedHashMap.Entry</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.LinkedHashMap.Entry" target="java.util.HashMap.Node">
+      <point x="0.0" y="-47.0" />
+      <point x="0.0" y="136.0" />
+    </edge>
+    <edge source="java.util.HashMap.Node" target="java.util.Map.Entry">
+      <point x="0.0" y="-136.0" />
+      <point x="0.0" y="113.0" />
+    </edge>
+    <edge source="java.util.HashMap.TreeNode" target="java.util.LinkedHashMap.Entry">
+      <point x="0.0" y="-245.5" />
+      <point x="0.0" y="47.0" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.797338792221085" x="240.1822849807445" y="468.5" />
+  <SelectedNodes>
+    <node>java.util.Map.Entry</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

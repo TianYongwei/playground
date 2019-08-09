@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement>java.util.Iterator</OriginalElement>
+  <nodes>
+    <node x="140.25" y="440.0">java.util.AbstractList.ListItr</node>
+    <node x="65.25" y="0.0">java.util.Iterator</node>
+    <node x="255.0" y="165.0">java.util.ListIterator</node>
+    <node x="0.0" y="175.0">java.util.AbstractList.Itr</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="java.util.ListIterator" target="java.util.Iterator">
+      <point x="0.0" y="-112.5" />
+      <point x="347.0" y="140.0" />
+      <point x="315.75" y="140.0" />
+      <point x="83.5" y="57.5" />
+    </edge>
+    <edge source="java.util.AbstractList.ListItr" target="java.util.AbstractList.Itr">
+      <point x="-46.0" y="-91.0" />
+      <point x="186.25" y="415.0" />
+      <point x="117.5" y="415.0" />
+      <point x="0.0" y="102.5" />
+    </edge>
+    <edge source="java.util.AbstractList.Itr" target="java.util.Iterator">
+      <point x="0.0" y="-102.5" />
+      <point x="117.5" y="140.0" />
+      <point x="148.75" y="140.0" />
+      <point x="-83.5" y="57.5" />
+    </edge>
+    <edge source="java.util.AbstractList.ListItr" target="java.util.ListIterator">
+      <point x="46.0" y="-91.0" />
+      <point x="278.25" y="415.0" />
+      <point x="347.0" y="415.0" />
+      <point x="0.0" y="112.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="1.0" x="583.0" y="389.5" />
+  <SelectedNodes />
+  <Categories>
+    <Category>Fields</Category>
+    <Category>Constructors</Category>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+    <Category>Inner Classes</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+
