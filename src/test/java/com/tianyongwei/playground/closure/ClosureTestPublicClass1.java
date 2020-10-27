@@ -4,7 +4,7 @@ import org.junit.jupiter.api.Test;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class ClosureTestPackage1Class1 {
+class ClosureTestPublicClass1 {
 
     @Test
     void main() {
