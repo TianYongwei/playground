@@ -44,17 +44,10 @@
             <version>${jmh.version}</version>
             <scope>provided</scope>
         </dependency>
-        <!--	guice	-->
-        <dependency>
-            <groupId>com.google.inject</groupId>
-            <artifactId>guice</artifactId>
-            <version>4.2.2</version>
-        </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-lang3</artifactId>
         </dependency>
-
         <!--		&lt;!&ndash; https://mvnrepository.com/artifact/org.apache.httpcomponents/httpclient &ndash;&gt;-->
         <!--		<dependency>-->
         <!--			<groupId>org.apache.httpcomponents</groupId>-->
