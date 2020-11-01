@@ -2,7 +2,10 @@ package com.tianyongwei.java8.collection;
 
 import org.apache.commons.lang3.builder.ToStringBuilder;
 
-import java.util.*;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.Comparator;
+import java.util.List;
 
 public class CompareTest {
 

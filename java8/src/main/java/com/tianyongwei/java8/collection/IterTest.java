@@ -1,6 +1,5 @@
 package com.tianyongwei.java8.collection;
 
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.Iterator;
 
