@@ -1,6 +1,6 @@
-package com.tianyongwei.playground.access_level.package2;
+package com.tianyongwei.java8.package2;
 
-import com.tianyongwei.playground.access_level.package1.PublicClass1;
+import com.tianyongwei.java8.package1.PublicClass1;
 
 public class Package2Class1 {
 

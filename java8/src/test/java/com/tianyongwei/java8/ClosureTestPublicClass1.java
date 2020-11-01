@@ -1,4 +1,4 @@
-package com.tianyongwei.playground.closure;
+package com.tianyongwei.java8;
 
 import org.junit.jupiter.api.Test;
 

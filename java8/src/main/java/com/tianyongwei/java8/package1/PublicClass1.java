@@ -1,4 +1,4 @@
-package com.tianyongwei.playground.access_level.package1;
+package com.tianyongwei.java8.package1;
 
 public class PublicClass1 {
 
