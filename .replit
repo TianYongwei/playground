@@ -1,2 +1,0 @@
-run = "./mvnw clean"
-lang = "java 8"
