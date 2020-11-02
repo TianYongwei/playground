@@ -1,4 +1,4 @@
-package com.tianyongwei.java8.guice;
+package com.tianyongwei.guice.demo;
 
 //@Singleton
 public class UserDao {
