@@ -7,6 +7,8 @@
 		<module>java8</module>
 		<module>dagger</module>
 		<module>guice</module>
+		<module>maven-default-plugins</module>
+		<module>maven-shade-plugin</module>
 	</modules>
 	<groupId>com.tianyongwei</groupId>
 	<artifactId>playground</artifactId>
@@ -15,7 +17,7 @@
 	<description>my playground</description>
 
 	<properties>
-		<java.version>1.8</java.version>
+		<java.version>11</java.version>
 	</properties>
 
 	<dependencies>
