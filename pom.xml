@@ -22,8 +22,12 @@
 		<java.version>11</java.version>
 	</properties>
 
-	<dependencies>
-	</dependencies>
+	<dependencyManagement>
+	</dependencyManagement>
+	<build>
+		<pluginManagement>
+		</pluginManagement>
+	</build>
 
 	<repositories>
 		<repository>
