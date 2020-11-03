@@ -9,6 +9,8 @@
 		<module>guice</module>
 		<module>maven-default-plugins</module>
 		<module>maven-shade-plugin</module>
+		<module>maven-aggregator</module>
+		<module>maven-parent</module>
 	</modules>
 	<groupId>com.tianyongwei</groupId>
 	<artifactId>playground</artifactId>
