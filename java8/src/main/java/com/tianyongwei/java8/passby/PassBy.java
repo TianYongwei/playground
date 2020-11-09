@@ -22,7 +22,7 @@ public class PassBy {
   }
 
   StringBuilder getObject2(StringBuilder sb) {
-    sb = new StringBuilder("1");
+    sb = new StringBuilder("11");
     return sb;
   }
 }
