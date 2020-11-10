@@ -11,6 +11,7 @@
 		<module>maven-shade-plugin</module>
 		<module>maven-aggregator</module>
 		<module>maven-parent</module>
+		<module>libs</module>
 	</modules>
 	<groupId>com.tianyongwei</groupId>
 	<artifactId>playground</artifactId>
