@@ -1,4 +1,4 @@
-package com.tianyongwei;
+package com.tianyongwei.jackson;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import com.fasterxml.jackson.databind.ObjectMapper;
